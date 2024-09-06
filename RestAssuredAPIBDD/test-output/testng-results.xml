@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-03T15:26:25 IST" name="Default suite" finished-at="2024-08-03T15:26:32 IST" duration-ms="6253">
+  <suite started-at="2024-09-06T18:07:49 CST" name="Default suite" finished-at="2024-09-06T18:08:01 CST" duration-ms="12454">
     <groups>
     </groups>
-    <test started-at="2024-08-03T15:26:25 IST" name="Default test" finished-at="2024-08-03T15:26:32 IST" duration-ms="6253">
+    <test started-at="2024-09-06T18:07:49 CST" name="Default test" finished-at="2024-09-06T18:08:01 CST" duration-ms="12454">
       <class name="automationpi.GetApi">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:automationpi.GetApi@49139829]" started-at="2024-08-03T15:26:25 IST" name="beforeMethod" finished-at="2024-08-03T15:26:26 IST" duration-ms="900" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:automationpi.GetApi@5d5d9e5]" started-at="2024-09-06T18:07:49 CST" name="beforeMethod" finished-at="2024-09-06T18:07:52 CST" duration-ms="2375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="CreatePet()[pri:2, instance:automationpi.GetApi@49139829]" started-at="2024-08-03T15:26:26 IST" name="CreatePet" finished-at="2024-08-03T15:26:32 IST" duration-ms="5232" status="FAIL">
+        <test-method signature="CreatePet()[pri:2, instance:automationpi.GetApi@5d5d9e5]" started-at="2024-09-06T18:07:52 CST" name="CreatePet" finished-at="2024-09-06T18:08:01 CST" duration-ms="9881" status="FAIL">
           <exception class="java.net.URISyntaxException">
             <message>
               <![CDATA[Illegal character in path at index 28: https://reqres.in/api/users/{idObject}]]>
