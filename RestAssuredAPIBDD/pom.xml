@@ -1,0 +1,109 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>RestAssuredAPIBDD</groupId>
+  <artifactId>RestAssuredAPIBDD</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+    <!-- REST Assured for API Testing -->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>5.3.2</version> <!-- Latest stable version -->
+        <scope>test</scope>
+    </dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.23.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.23.1</version>
+</dependency>
+
+    <!-- TestNG for Testing Framework -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.8.0</version> <!-- Latest stable version -->
+        <scope>test</scope>
+    </dependency>
+<!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+<dependency>
+    <groupId>com.github.javafaker</groupId>
+    <artifactId>javafaker</artifactId>
+    <version>1.0.2</version>
+</dependency>
+
+    <!-- JSON Processing Library (optional) -->
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20230618</version> <!-- For JSON parsing -->
+        <scope>test</scope>
+    </dependency>
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.0.9</version>
+</dependency>
+
+    <!-- Jackson Databind for JSON Handling (optional) -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.15.2</version> <!-- For JSON serialization/deserialization -->
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Hamcrest for Matchers (optional) -->
+    <dependency>
+        <groupId>org.hamcrest</groupId>
+        <artifactId>hamcrest</artifactId>
+        <version>2.2</version> <!-- For more expressive assertions -->
+        <scope>test</scope>
+    </dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.2.5</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.2.5</version>
+</dependency>
+
+    <!-- Log4j for Logging (optional) -->
+    <dependency>
+        <groupId>log4j</groupId>
+        <artifactId>log4j</artifactId>
+        <version>1.2.17</version> <!-- For logging purposes -->
+        <scope>test</scope>
+    </dependency>
+
+    <!-- AssertJ for Fluent Assertions (optional) -->
+    <dependency>
+        <groupId>org.assertj</groupId>
+        <artifactId>assertj-core</artifactId>
+        <version>3.24.2</version> <!-- For fluent assertions -->
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Gson for JSON Serialization/Deserialization (optional) -->
+    <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.10.1</version> <!-- For JSON processing -->
+        <scope>test</scope>
+    </dependency>
+</dependencies>
+  <name>RestAssuredAPIBDD</name>
+  <description>RestAssuredAPIBDD</description>
+</project>
